@@ -1,6 +1,6 @@
 {
   "name": "@taikai/dappkit-react",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "scripts": {
     "pre:bundle": "rimraf dist/",
     ":bundle": "tsc",
@@ -63,6 +63,7 @@
     "README.MD"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "jest": {
@@ -81,5 +82,6 @@
     "transform": {
       "\\.tsx?$": "ts-jest"
     }
-  }
+  },
+  "license": "MIT"
 }
