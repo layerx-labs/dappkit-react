@@ -1,7 +1,6 @@
 {
-  "name": "@layerx-labs/dappkit-react",
-  "version": "0.1.5",
-  "private": false,
+  "name": "@taikai/dappkit-react",
+  "version": "0.1.6",
   "scripts": {
     "pre:bundle": "rimraf dist/",
     ":bundle": "tsc",
@@ -63,7 +62,9 @@
     "dist/",
     "README.MD"
   ],
-  "homepage": "https://moshmage.github.io/dappkit-react",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "jest": {
     "testEnvironment": "jsdom",
     "collectCoverage": true,
